@@ -1,3 +1,5 @@
+// Minimal HTML shown when SSR fails catastrophically.
+
 export function renderErrorPage(): string {
   return `<!doctype html>
 <html lang="en">
